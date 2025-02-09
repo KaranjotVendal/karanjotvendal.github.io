@@ -1,6 +1,6 @@
 # Personal Blog
 
-This is my personal blog built with [Hugo](https://gohugo.io/) where I share insights, tutorials, and projects related to **Machine Learning**, **Deep Learning**, **Reinforcement Learning**, and **Quantitative Finance**. The site is powered by the [Typo theme](https://github.com/tomfran/typo) for Hugo, which provides a clean and minimalistic design.
+This is my personal blog built with [Hugo](https://gohugo.io/) where I try to talk Machine Learning. The site is powered by the [Typo theme](https://github.com/tomfran/typo) for Hugo.
 
 ## Acknowledgments
 
