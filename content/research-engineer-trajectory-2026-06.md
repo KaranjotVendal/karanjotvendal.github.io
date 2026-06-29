@@ -2,6 +2,9 @@
 date = '2026-06-29'
 draft = false
 title = 'Research Engineer Trajectory'
+readTime = true
+showTags = true
+tags = ['meta']
 +++
 
 > Status: direction, not a plan  

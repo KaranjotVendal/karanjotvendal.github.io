@@ -2,6 +2,9 @@
 date = '2025-02-02'
 draft = false
 title = 'Hello again'
+readTime = true
+showTags = true
+tags = ['meta']
 +++
 
 This site is being revived as a public record of my work and learning.
