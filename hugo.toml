@@ -1,0 +1,91 @@
+[module]
+[[module.imports]]
+path = "github.com/tomfran/typo"
+
+baseURL = 'https://karanjotvendal.github.io/'
+languageCode = 'en-us'
+title = 'Karanjot Vendal'
+theme = 'typo'
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Meta description
+description = "Karanjot Vendal's research engineering log — transformers, inference, and systems."
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Hi!'
+homeIntroContent = """
+
+👋 I’m Karanjot Vendal, an ML Engineer based in London.
+
+I’m currently exploring the space between **research and engineering for large language models** — understanding transformers from the math to the metal, and building things that run fast.
+
+This site is a public record of that work:
+- **Weekly**: a running log of what I study, build, and get wrong each week.
+- **Posts**: deeper writeups on specific concepts or projects.
+- **Projects**: code, experiments, and reproductions.
+
+Previously, I worked on sports simulation and real-time ML at Hawk-Eye Innovations, and I hold an MSc in AI from Queen Mary University of London.
+
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Weekly'
+homeCollection = 'weekly'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+breadcrumbs = true
+
+# Social icons
+[[params.social]]
+name = "X"
+url = "https://x.com/VendalKaranjot"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/KaranjotVendal"
+
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "weekly"
+url = "/weekly"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "projects"
+url = "/projects"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"
